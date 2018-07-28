@@ -24,10 +24,11 @@
 			<h2 class="content__title">Chris Perez</h2>
 			<h3 class="content__subtitle">Webdeveloper</h3>
 			<div class="icons">
-				<a href="https://github.com/elpeyotl" target="_blank"><i class="fab fa-github"></i></a>
-				<a href="mailto:hello@chrisperez.ch"><i class="far fa-envelope"></i></a>
-				<a href="https://twitter.com/elpeyotl" target="_blank"><i class="fab fa-twitter"></i></a>
-				<a href="https://codepen.io/elpeyotl/" target="_blank"><i class="fab fa-codepen"></i></a>
+				<a href="https://github.com/elpeyotl" target="_blank" title="Github"><i class="fab fa-github"></i></a>
+				<a href="mailto:hello@chrisperez.ch" title="Send email"><i class="far fa-envelope"></i></a>
+				<a href="https://twitter.com/elpeyotl" title="Twitter" target="_blank"><i class="fab fa-twitter"></i></a>
+				<a href="https://codepen.io/elpeyotl/" title="Codepen" target="_blank"><i class="fab fa-codepen"></i></a>
+				<a href="/files/portfolio_chris_perez.pdf" title="Portfolio" target="_blank"><i class="fa fa-file-pdf"></i></a>
 			</div>
 		</div>
 	</div>
