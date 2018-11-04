@@ -3,7 +3,10 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: 'chrisperez',
+    htmlAttrs: {
+      lang: 'en',
+    },
+    title: 'Chris Perez',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -21,6 +24,9 @@ module.exports = {
   css: [
     '~/assets/css/base.css',
     '~/assets/css/demo2.css'
+  ],
+  modules: [
+    '@nuxtjs/pwa',
   ],
   /*
   ** Customize the progress bar color
