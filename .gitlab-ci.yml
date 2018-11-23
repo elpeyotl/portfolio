@@ -1,7 +1,7 @@
 variables:
   HOST: "peyotedesign.ch.arvandus.ch-meta.net"
   USERNAME: "peyotler"
-  PASSWORD: "M3tall1cA"
+  PASSWORD: "M3x1co86"
 
 deploy:
   script:
