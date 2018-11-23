@@ -1,8 +1,11 @@
-deploy: // You can name your task however you like
-    stage: deploy
-    only:
-        - master
-        deploy:
+variables:
+  HOST: "peyotedesign.ch.arvandus.ch-meta.net"
+  USERNAME: "peyotler"
+  PASSWORD: "M3tall1cA"
+
+deploy:
   script:
     - apt-get update -qq && apt-get install -y -qq lftp
-    - lftp -c "set ftp:ssl-allow no; open -u 'elpeyotler','Metall1cA' 'peyotedesign.ch.arvandus.ch-meta.net'; mirror -Rev dist/ ./public_html/test/  --ignore-time --parallel=10 --exclude-glob .git* --exclude .git/"
+    - lftp -c "set ftp:ssl-allow no; open -u $USERNAME,$PASSWORD $HOST; mirror -Rnev dist/ ./public_html/test --ignore-time --parallel=10 --exclude-glob .git* --exclude .git/"
+  only:
+    - master
